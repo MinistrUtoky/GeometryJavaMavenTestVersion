@@ -75,12 +75,11 @@ class NGonTest {
                                     Math.round(ngon1.square()*100.0)/100.0),
                 () -> assertEquals(Math.round(rect.square()*100.0)/100.0,
                                     Math.round(ngon2.square()*100.0)/100.0),
-                () -> assertEquals(Math.round(0.25*Math.sqrt(5*(5+2*Math.sqrt(5)))*Math.pow(Point.sub(ngon3.getP()[1],
-                                                                                        ngon3.getP()[0]).abs(), 2)*100.0)/100.0,
+                () -> assertEquals(Math.round(0.25*Math.sqrt(5*(5+2*Math.sqrt(5)))*Math.pow(Point.sub(ngon3.getP()[1],                                 ngon3.getP()[0]).abs(), 2)*100.0)/100.0,
                                         Math.round(ngon3.square()*100.0)/100.0),
                 () -> assertEquals(Math.round(0.5*3*Math.sqrt(3)*Math.pow(Point.sub(ngon4.getP()[1],
-                                                                        ngon4.getP()[0]).abs(), 2)*100.0)/100.0,
-                                        Math.round(ngon4.square()*100.0)/100.0)
+                                                    ngon4.getP()[0]).abs(), 2)*100.0)/100.0,
+                                            Math.round(ngon4.square()*100.0)/100.0)
         );
     }
 

@@ -1,6 +1,5 @@
 package com.example.javafxapp;
 
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -16,7 +15,6 @@ public class HelloApplication extends Application {
     private GridPane mainGrid;
     private HelloController controller;
 
-
     @Override
     public void start(Stage stage) throws IOException {
         try
@@ -31,8 +29,9 @@ public class HelloApplication extends Application {
             stage.show();
 
             mainGrid = (GridPane) fxmlLoader.getNamespace().get("MainFormGrid");
-            controller.StartSetup();
-            controller.SwitchGridTo(mainGrid);
+            controller.redColoredShapesIndices = new int[2];
+            controller.redColoredShapesIndices[0]=-1;
+            controller.redColoredShapesIndices[1]=-1;
             controller.CreateAxis();
         }
         catch (Exception ex)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.PointTest" time="0.044" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.PointTest" time="0.061" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\Viqtop\.jdks\openjdk-19.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Viqtop\AppData\Local\Temp\surefire9834573325224785123\surefirebooter-20231111233657892_3.jar C:\Users\Viqtop\AppData\Local\Temp\surefire9834573325224785123 2023-11-11T23-36-57_371-jvmRun1 surefire-20231111233657892_1tmp surefire_0-20231111233657892_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Viqtop\AppData\Local\Temp\surefire2471844329398979415\surefirebooter-20231124185650174_3.jar C:\Users\Viqtop\AppData\Local\Temp\surefire2471844329398979415 2023-11-24T18-56-49_702-jvmRun1 surefire-20231124185650174_1tmp surefire_0-20231124185650174_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Viqtop\IdeaProjects\TestFirstHalf\target\test-classes;C:\Users\Viqtop\IdeaProjects\TestFirstHalf\target\classes;C:\Users\Viqtop\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Viqtop\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Viqtop\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Viqtop\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Viqtop\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Viqtop\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Viqtop\AppData\Local\Temp\surefire9834573325224785123\surefirebooter-20231111233657892_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Viqtop\AppData\Local\Temp\surefire2471844329398979415\surefirebooter-20231124185650174_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -60,20 +60,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testSymAxis" classname="org.example.PointTest" time="0.002"/>
-  <testcase name="symAxis" classname="org.example.PointTest" time="0.001"/>
-  <testcase name="testAdd" classname="org.example.PointTest" time="0.001"/>
-  <testcase name="testSub" classname="org.example.PointTest" time="0.002"/>
+  <testcase name="testSymAxis" classname="org.example.PointTest" time="0.003"/>
+  <testcase name="symAxis" classname="org.example.PointTest" time="0.002"/>
+  <testcase name="testAdd" classname="org.example.PointTest" time="0.002"/>
+  <testcase name="testSub" classname="org.example.PointTest" time="0.005"/>
   <testcase name="getDim" classname="org.example.PointTest" time="0.002"/>
-  <testcase name="testMult1" classname="org.example.PointTest" time="0.001"/>
+  <testcase name="testMult1" classname="org.example.PointTest" time="0.002"/>
   <testcase name="testMult2" classname="org.example.PointTest" time="0.002"/>
   <testcase name="testMult" classname="org.example.PointTest" time="0.001"/>
-  <testcase name="testSetX" classname="org.example.PointTest" time="0.002"/>
-  <testcase name="testToString" classname="org.example.PointTest" time="0.002"/>
-  <testcase name="abs" classname="org.example.PointTest" time="0.001"/>
+  <testcase name="testSetX" classname="org.example.PointTest" time="0.001"/>
+  <testcase name="testToString" classname="org.example.PointTest" time="0.001"/>
+  <testcase name="abs" classname="org.example.PointTest" time="0.002"/>
   <testcase name="add" classname="org.example.PointTest" time="0.001"/>
   <testcase name="sub" classname="org.example.PointTest" time="0.001"/>
   <testcase name="getX" classname="org.example.PointTest" time="0.001"/>
-  <testcase name="mult" classname="org.example.PointTest" time="0.002"/>
+  <testcase name="mult" classname="org.example.PointTest" time="0.001"/>
   <testcase name="setX" classname="org.example.PointTest" time="0.001"/>
 </testsuite>
